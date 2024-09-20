@@ -1,0 +1,18 @@
+Column,Null Values,Null String Values,Duplicate Values,Unique Values,Data Type,Total Records,Time Taken (seconds)
+Teradata Columns,964,0,5,32,object,999,0.001532793
+SF_Field,956,0,0,43,object,999,0.0009980202
+Sample Value,966,0,2,32,object,999,0.0009458065
+Source Application Name,999,0,0,0,float64,999,0.0010979176
+Source Table Name,999,0,0,0,float64,999,0.0008790493
+Column Name,999,0,0,0,float64,999,0.0008497238
+Logic Required(if derived),999,0,0,0,float64,999,0.0008387566
+If derived share the logic,999,0,0,0,float64,999,0.0008869171
+Field Details,956,0,23,25,object,999,0.0010428429
+Field Type,956,0,38,9,object,999,0.0009179115
+Char Limits,959,0,36,8,object,999,0.0009629726
+Is Required,956,0,43,2,object,999,0.0009188652
+Is Derived Value,956,0,43,2,object,999,0.0012209415
+Is Static Value,956,0,43,2,object,999,0.0010697842
+Static Value,956,0,42,4,object,999,0.0009448528
+Comments,961,0,35,6,object,999,0.000951767
+KJ Comments,990,0,5,5,object,999,0.0009281635
