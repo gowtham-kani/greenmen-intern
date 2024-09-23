@@ -1,5 +1,6 @@
 import pandas as pd
 import time
+import sys
 from pathlib import Path
 from loguru import logger
 
@@ -15,7 +16,7 @@ def read_file(file_path):
     else:
         raise ValueError("Unsupported file format. Please provide a CSV or Parquet file.")
     
-    return df
+   
 
 # Function to perform data quality checks for each column
 def check_data_quality(df):
@@ -68,24 +69,56 @@ def check_data_quality(df):
 
     return pd.DataFrame(data_quality)
 
+
 # Function to save the data quality report to a CSV file
 def save_data_quality_to_csv(data_quality_df, output_file):
     data_quality_df.to_csv(output_file, index=False)
     logger.info(f"Data quality report saved to {output_file}")
 
-# Main function to execute the steps
-def analyze_file_and_save(input_file_path, output_file_path):
-    input_file_path = Path(input_file_path)  # Convert to Path object for easier manipulation
+# Main handler function (replaces lambda_handler)
+def process_data(event):
+    input_file_path = event["input_file_path"]
+    output_file_path = event["output_file_path"]
 
-    if not input_file_path.is_file():
-        raise FileNotFoundError(f"The file {input_file_path} does not exist.")
-    
-    df = read_file(input_file_path)
+    # Validate input file
+    file_path = Path(input_file_path)
+    if not file_path.is_file():
+        raise FileNotFoundError(f"The file {file_path} does not exist.")
+
+    # Read the file and perform data quality checks
+    df = read_file(file_path)
     data_quality_df = check_data_quality(df)
+
+    # Save the data quality report to CSV
     save_data_quality_to_csv(data_quality_df, output_file_path)
 
-# Example usage (replace with actual file paths)
-input_file_path = '/Users/vale.muthu/greenmen-intern/csv_input_file.csv'  # Or 'your_file.parquet'
-output_file_path = '/Users/vale.muthu/greenmen-intern/csv_output_file.csv'  # CSV file for the data quality report
+    # Example return statement (customize based on your needs)
+    return {"status": "success", "output_file": output_file_path}
 
-analyze_file_and_save(input_file_path, output_file_path)
+# Main function to parse command-line arguments and run the process
+def main():
+    if len(sys.argv) != 3:
+        print("Usage: python script_name.py <input_file_path> <output_file_path>")
+        sys.exit(1)
+
+    input_file_path = sys.argv[1]
+    output_file_path = sys.argv[2]
+
+    # Create event dictionary to simulate lambda event
+    event = {
+        "input_file_path": input_file_path,
+        "output_file_path": output_file_path
+    }
+
+    # Run the process
+    result = process_data(event)
+    print(f"Process completed: {result}")
+
+# Entry point for script execution
+if __name__ == "__main__":
+    main()
+
+
+
+
+
