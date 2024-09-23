@@ -66,6 +66,7 @@ def check_data_quality(df):
 
         # Store only the numerical data (counts)
         data_quality.append({
+            'Column': column,
             'Null Values': null_count,
             'Null String Values': null_string_count,
             'Duplicate Values': duplicate_count,
