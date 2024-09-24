@@ -1,0 +1,44 @@
+[
+ {
+  "SF Field Name":"Business Unit",
+  "Object":"PRODUCT_MASTER__c",
+  "Field API Name":"Business_Unit__c",
+  "Type":"Picklist",
+  "Sample Values":"ABSLAMC"
+ },
+ {
+  "SF Field Name":"LOB",
+  "Object":"PRODUCT_MASTER__c",
+  "Field API Name":"LOB__c",
+  "Type":"Picklist",
+  "Sample Values":"MF, PMS, RE, AIF"
+ },
+ {
+  "SF Field Name":"Name",
+  "Object":"PRODUCT_MASTER__c",
+  "Field API Name":"Name__c",
+  "Type":"Text(255)",
+  "Sample Values":"Aditya Birla Sun Life Mid Cap Direct Fund-Growth"
+ },
+ {
+  "SF Field Name":"Asset Class",
+  "Object":"PRODUCT_MASTER__c",
+  "Field API Name":"Asset_Class__c",
+  "Type":"Text(255)",
+  "Sample Values":"Equity"
+ },
+ {
+  "SF Field Name":"Scheme Code",
+  "Object":"PRODUCT_MASTER__c",
+  "Field API Name":"ProductCode__c",
+  "Type":"Text(255)",
+  "Sample Values":"ABSL001"
+ },
+ {
+  "SF Field Name":"Scheme Code",
+  "Object":"PRODUCT_MASTER__c",
+  "Field API Name":"UniqueKey__c",
+  "Type":"Text(255)",
+  "Sample Values":"ABSL001"
+ }
+]
