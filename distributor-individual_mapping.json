@@ -1,0 +1,310 @@
+[
+ {
+  "SF Field Name":"Business Unit",
+  "Object":"Account",
+  "Field API Name":"Business_Unit__c",
+  "Type":"Picklist",
+  "Sample Values":"ABSLAMC"
+ },
+ {
+  "SF Field Name":"LOB",
+  "Object":"Account",
+  "Field API Name":"Line_of_Business__c",
+  "Type":"Picklist",
+  "Sample Values":"MF, PMS, RE, AIF"
+ },
+ {
+  "SF Field Name":"Client  Code",
+  "Object":"Account",
+  "Field API Name":"LOB_Client_Code__c",
+  "Type":"Text(255) (External ID) (Unique Case Insensitive)",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"ARN Number",
+  "Object":"Account",
+  "Field API Name":"ARN_Number__c",
+  "Type":"Text(255)",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"Distributor Name",
+  "Object":"Account",
+  "Field API Name":"Distributor_Name__c",
+  "Type":"Text(255)",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"EUIN",
+  "Object":"Account",
+  "Field API Name":"EUIN__c",
+  "Type":"Text(255)",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"EUIN Expiry Date",
+  "Object":"Account",
+  "Field API Name":"EUIN_Expiry_Date__c",
+  "Type":"Date",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"Address 1",
+  "Object":"Account",
+  "Field API Name":"Street_Address_1__c",
+  "Type":"Long Text Area(1000)",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"Address 2",
+  "Object":"Account",
+  "Field API Name":"Street_Address_2__c",
+  "Type":"Long Text Area(1000)",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"Address 3",
+  "Object":"Account",
+  "Field API Name":"Street_Address_3__c",
+  "Type":"Long Text Area(1000)",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"PinCode",
+  "Object":"Account",
+  "Field API Name":"Postal_Code__c",
+  "Type":"Text(255)",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"City",
+  "Object":"Account",
+  "Field API Name":"City__c",
+  "Type":"Text(255)",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"State",
+  "Object":"Account",
+  "Field API Name":"State__c",
+  "Type":"Text(255)",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"Country",
+  "Object":"Account",
+  "Field API Name":"Country__c",
+  "Type":"Text(255)",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"PAN",
+  "Object":"Account",
+  "Field API Name":"PAN__C",
+  "Type":"Text(255)",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"Distributor Type",
+  "Object":"Account",
+  "Field API Name":"Distributor_Type__c",
+  "Type":"Text(255)",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"Email id",
+  "Object":"Account",
+  "Field API Name":"PersonEmail",
+  "Type":"Email",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"Mobile No",
+  "Object":"Account",
+  "Field API Name":"PersonMobilePhone",
+  "Type":"Phone",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"Date Of Birth",
+  "Object":"Account",
+  "Field API Name":"PersonBirthdate",
+  "Type":"Date",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"Empanelment Status",
+  "Object":"Account",
+  "Field API Name":"Empanelment_Status__c",
+  "Type":"Text(255)",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"Status",
+  "Object":"Account",
+  "Field API Name":"Status__c",
+  "Type":"Text(255)",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"AMFI Registration Number",
+  "Object":"Account",
+  "Field API Name":"AMFI_Registration_Number__c",
+  "Type":"Text(255)",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"Broker Classification",
+  "Object":"Account",
+  "Field API Name":"Broker_Classification__c",
+  "Type":"Text(255)",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"Broker Channel ",
+  "Object":"Account",
+  "Field API Name":"Broker_Channel__c",
+  "Type":"Text(255)",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"ARN Expiry Date",
+  "Object":"Account",
+  "Field API Name":"ARN_Expiry_Date__c",
+  "Type":"Date",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"ARN Issue Date",
+  "Object":"Account",
+  "Field API Name":"ARN_Issue_Date__c",
+  "Type":"Date",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"Creation Date",
+  "Object":"Account",
+  "Field API Name":"Creation_Date__c",
+  "Type":"Date",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"Empanelment Date",
+  "Object":"Account",
+  "Field API Name":"Empanelment_Date__c",
+  "Type":"Date",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"Tax Status",
+  "Object":"Account",
+  "Field API Name":"Tax_Status__c",
+  "Type":"Text(255)",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"Payment Suspended Flag",
+  "Object":"Account",
+  "Field API Name":"Payment_Suspended_Flag__c",
+  "Type":"Checkbox",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"Self Declaration status",
+  "Object":"Account",
+  "Field API Name":"Self_Declaration_status__c",
+  "Type":"Text(255)",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"NISM 21A",
+  "Object":"Account",
+  "Field API Name":"NISM_21A__c",
+  "Type":"Text(255)",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"AUM at ARN level",
+  "Object":"Account",
+  "Field API Name":"AUM_at_ARN_level__c",
+  "Type":"Text(255)",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"Count of Customers",
+  "Object":"Account",
+  "Field API Name":"Count_of_Customers__c",
+  "Type":"Number(4, 0)",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"Count of Active SIPs",
+  "Object":"Account",
+  "Field API Name":"Count_of_Active_SIPs__c",
+  "Type":"Number(4, 0)",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"Relationship Manager Name",
+  "Object":"Account",
+  "Field API Name":"Relationship_Manager_Name__r.Email",
+  "Type":"Lookup",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"Relationship Manager Email id",
+  "Object":"Account",
+  "Field API Name":null,
+  "Type":null,
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"Nearest Branch",
+  "Object":"Account",
+  "Field API Name":"Nearest_Branch_Name__c",
+  "Type":"Text(255)",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"Distributor Category ",
+  "Object":"Account",
+  "Field API Name":"Distributor_Category__c",
+  "Type":"Text(255)",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"Distributor Last Payment Date",
+  "Object":"Account",
+  "Field API Name":"Distributor_Last_Payment_Date__c",
+  "Type":"Date",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"Distributor Commission Paid Amount (last 60 days transactions)",
+  "Object":"Account",
+  "Field API Name":"Last_Payment_Amount__c",
+  "Type":"Currency(10, 2)",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"Brokerage Payment Mode",
+  "Object":"Account",
+  "Field API Name":"Brokerage_Payment_Mode__c",
+  "Type":"Text(255)",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"Nominee 1",
+  "Object":"Account",
+  "Field API Name":"Nominee_1__c",
+  "Type":"Text(255)",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"Last Updated Date",
+  "Object":"Account",
+  "Field API Name":"Last_Update_Date_Time__c",
+  "Type":"Date\/Time",
+  "Sample Values":null
+ }
+]
