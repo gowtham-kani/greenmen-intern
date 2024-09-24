@@ -1,0 +1,37 @@
+[
+ {
+  "SF Field Name":"Business Unit",
+  "Object":"Contact",
+  "Field API Name":"Business_Unit__c",
+  "Type":"Picklist",
+  "Sample Values":"ABSLAMC"
+ },
+ {
+  "SF Field Name":"LOB",
+  "Object":"Contact",
+  "Field API Name":"Line_of_Business__c",
+  "Type":"Picklist",
+  "Sample Values":"MF, PMS, RE, AIF"
+ },
+ {
+  "SF Field Name":"Email ID",
+  "Object":"Contact",
+  "Field API Name":"Email",
+  "Type":"Email",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"Mobile No",
+  "Object":"Contact",
+  "Field API Name":"Phone",
+  "Type":"Phone",
+  "Sample Values":null
+ },
+ {
+  "SF Field Name":"Account",
+  "Object":"Contact",
+  "Field API Name":"Account.LOB_Client_Code__c",
+  "Type":"Master detail",
+  "Sample Values":null
+ }
+]
