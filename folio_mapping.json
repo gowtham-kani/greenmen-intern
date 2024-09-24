@@ -1,0 +1,306 @@
+[
+ {
+  "SF Field Name":"Business Unit",
+  "Object":"Asset",
+  "Field API Name":"Business_Unit__c",
+  "Type":"Picklist",
+  "Sample Values":"ABSLAMC",
+  "Relationship Field":null
+ },
+ {
+  "SF Field Name":"LOB",
+  "Object":"Asset",
+  "Field API Name":"LOB__c",
+  "Type":"Picklist",
+  "Sample Values":"MF, PMS, RE, AIF",
+  "Relationship Field":null
+ },
+ {
+  "SF Field Name":"CLIENT_CODE",
+  "Object":"Asset",
+  "Field API Name":"Account.LOB_Client_Code__c",
+  "Type":"Lookup",
+  "Sample Values":null,
+  "Relationship Field":"Account.LOB_Client_Code__c"
+ },
+ {
+  "SF Field Name":"Folio",
+  "Object":"Asset",
+  "Field API Name":"Folio__c",
+  "Type":"Text(15)",
+  "Sample Values":"117876592643943",
+  "Relationship Field":null
+ },
+ {
+  "SF Field Name":"1st Holder",
+  "Object":"Asset",
+  "Field API Name":"X1st_Holder__c",
+  "Type":"Text(255)",
+  "Sample Values":null,
+  "Relationship Field":null
+ },
+ {
+  "SF Field Name":"2nd Holder",
+  "Object":"Asset",
+  "Field API Name":"X2nd_Holder__c",
+  "Type":"Text(255)",
+  "Sample Values":null,
+  "Relationship Field":null
+ },
+ {
+  "SF Field Name":"3rd Holder",
+  "Object":"Asset",
+  "Field API Name":"X3rd_Holder__c",
+  "Type":"Text(255)",
+  "Sample Values":null,
+  "Relationship Field":null
+ },
+ {
+  "SF Field Name":"ARN Number",
+  "Object":"Asset",
+  "Field API Name":"ARN_Number__c",
+  "Type":"Text(15)",
+  "Sample Values":null,
+  "Relationship Field":null
+ },
+ {
+  "SF Field Name":"Broker Name",
+  "Object":"Asset",
+  "Field API Name":"Broker_Name__c",
+  "Type":"Text(255)",
+  "Sample Values":null,
+  "Relationship Field":null
+ },
+ {
+  "SF Field Name":"Nominee1",
+  "Object":"Asset",
+  "Field API Name":"Nominee1__c",
+  "Type":"Text(255)",
+  "Sample Values":null,
+  "Relationship Field":null
+ },
+ {
+  "SF Field Name":"Nominee1 Percentage",
+  "Object":"Asset",
+  "Field API Name":"Nominee1_Percentage__c",
+  "Type":"Percent(3, 0)",
+  "Sample Values":"75",
+  "Relationship Field":null
+ },
+ {
+  "SF Field Name":"Nominee2",
+  "Object":"Asset",
+  "Field API Name":"Nominee2__c",
+  "Type":"Text(255)",
+  "Sample Values":null,
+  "Relationship Field":null
+ },
+ {
+  "SF Field Name":"Nominee2 Percentage",
+  "Object":"Asset",
+  "Field API Name":"Nominee2_Percentage__c",
+  "Type":"Percent(3, 0)",
+  "Sample Values":"10",
+  "Relationship Field":null
+ },
+ {
+  "SF Field Name":"Nominee3",
+  "Object":"Asset",
+  "Field API Name":"Nominee3__c",
+  "Type":"Text(255)",
+  "Sample Values":null,
+  "Relationship Field":null
+ },
+ {
+  "SF Field Name":"Nominee3 Percentage",
+  "Object":"Asset",
+  "Field API Name":"Nominee3_Percentage__c",
+  "Type":"Percent(3, 0)",
+  "Sample Values":"15",
+  "Relationship Field":null
+ },
+ {
+  "SF Field Name":"Guardian Name",
+  "Object":"Asset",
+  "Field API Name":"Guardian_Name__c",
+  "Type":"Text(255)",
+  "Sample Values":null,
+  "Relationship Field":null
+ },
+ {
+  "SF Field Name":"Bank",
+  "Object":"Asset",
+  "Field API Name":"Bank_name__c",
+  "Type":"Text(255)",
+  "Sample Values":null,
+  "Relationship Field":null
+ },
+ {
+  "SF Field Name":"Bank Account Number",
+  "Object":"Asset",
+  "Field API Name":"Bank_Account_Number__c",
+  "Type":"Text(255)",
+  "Sample Values":null,
+  "Relationship Field":null
+ },
+ {
+  "SF Field Name":"IFSC Code",
+  "Object":"Asset",
+  "Field API Name":"IFSC_Code__c",
+  "Type":"Text(255)",
+  "Sample Values":null,
+  "Relationship Field":null
+ },
+ {
+  "SF Field Name":"Bank Branch",
+  "Object":"Asset",
+  "Field API Name":"Bank_Branch_Name__c",
+  "Type":"Text(255)",
+  "Sample Values":null,
+  "Relationship Field":null
+ },
+ {
+  "SF Field Name":"Mode Of Payment",
+  "Object":"Asset",
+  "Field API Name":"Payment_Mode__c",
+  "Type":"Text(255)",
+  "Sample Values":null,
+  "Relationship Field":null
+ },
+ {
+  "SF Field Name":"Transmission Folio",
+  "Object":"Asset",
+  "Field API Name":"Transmission_Folio__c",
+  "Type":"Text(255)",
+  "Sample Values":null,
+  "Relationship Field":null
+ },
+ {
+  "SF Field Name":"Demat Folio",
+  "Object":"Asset",
+  "Field API Name":"Demat_Folio__c",
+  "Type":"Text(255)",
+  "Sample Values":null,
+  "Relationship Field":null
+ },
+ {
+  "SF Field Name":"Channel",
+  "Object":"Asset",
+  "Field API Name":"Channel__c",
+  "Type":"Text(255)",
+  "Sample Values":null,
+  "Relationship Field":null
+ },
+ {
+  "SF Field Name":"CAN\u2013CommonAccountNumber",
+  "Object":"Asset",
+  "Field API Name":"Common_Account_Number__c",
+  "Type":"Text(255)",
+  "Sample Values":null,
+  "Relationship Field":null
+ },
+ {
+  "SF Field Name":"OTMMandate",
+  "Object":"Asset",
+  "Field API Name":"OTMMandate__c",
+  "Type":"Text(255)",
+  "Sample Values":null,
+  "Relationship Field":null
+ },
+ {
+  "SF Field Name":"Profile Completion Percentage at folio level",
+  "Object":"Asset",
+  "Field API Name":"Profile_Completion_Percentage_at_folio__c",
+  "Type":"Percent(3, 0)",
+  "Sample Values":"50",
+  "Relationship Field":null
+ },
+ {
+  "SF Field Name":"Folio Creation Date",
+  "Object":"Asset",
+  "Field API Name":"Folio_Creation_Date__c",
+  "Type":"Date",
+  "Sample Values":"2024-01-01 00:00:00",
+  "Relationship Field":null
+ },
+ {
+  "SF Field Name":"Account Type (For PMS)",
+  "Object":"Asset",
+  "Field API Name":"Account_Type_For_PMS__c",
+  "Type":"Text(255)",
+  "Sample Values":null,
+  "Relationship Field":null
+ },
+ {
+  "SF Field Name":"Depository (For PMS)",
+  "Object":"Asset",
+  "Field API Name":"Depository_For_PMS__c",
+  "Type":"Text(255)",
+  "Sample Values":null,
+  "Relationship Field":null
+ },
+ {
+  "SF Field Name":"DP ID(For PMS)",
+  "Object":"Asset",
+  "Field API Name":"DP_ID_For_PMS__c",
+  "Type":"Text(255)",
+  "Sample Values":null,
+  "Relationship Field":null
+ },
+ {
+  "SF Field Name":"DP Client ID(For PMS)",
+  "Object":"Asset",
+  "Field API Name":"DP_Client_ID_For_PMS__c",
+  "Type":"Text(255)",
+  "Sample Values":null,
+  "Relationship Field":null
+ },
+ {
+  "SF Field Name":"Account Maturity Date",
+  "Object":"Asset",
+  "Field API Name":"Account_Maturity_Date__c",
+  "Type":"Date",
+  "Sample Values":"2024-01-01 00:00:00",
+  "Relationship Field":null
+ },
+ {
+  "SF Field Name":"Commitment Amount",
+  "Object":"Asset",
+  "Field API Name":"Commitment_Amount__c",
+  "Type":"Currency(16, 2)",
+  "Sample Values":"1287654.99",
+  "Relationship Field":null
+ },
+ {
+  "SF Field Name":"Capital Contributed",
+  "Object":"Asset",
+  "Field API Name":"Capital_Contributed__c",
+  "Type":"Currency(16, 2)",
+  "Sample Values":null,
+  "Relationship Field":null
+ },
+ {
+  "SF Field Name":"Capital Returned",
+  "Object":"Asset",
+  "Field API Name":"Capital_Returned__c",
+  "Type":"Currency(16, 2)",
+  "Sample Values":null,
+  "Relationship Field":null
+ },
+ {
+  "SF Field Name":"Income Returned",
+  "Object":"Asset",
+  "Field API Name":"Income_Returned__c",
+  "Type":"Currency(16, 2)",
+  "Sample Values":null,
+  "Relationship Field":null
+ },
+ {
+  "SF Field Name":"LAST UPDATION DATE TIMESTAMP",
+  "Object":"Asset",
+  "Field API Name":"Last_Update_Date_Time__c",
+  "Type":"Date\/Time",
+  "Sample Values":"Date\/Time        - \nformat - YYYY-MM-DD<T>HH:MM:SS<Z>\neg. 2024-01-01T11:29:15Z",
+  "Relationship Field":null
+ }
+]
